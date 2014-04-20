@@ -35,5 +35,9 @@
     <string name="exception">Exception: %1$s</string>
     <string name="post_status_update">Post Status Update</string>
     <string name="login_desc">Login</string>
-    <string name="login">TODO</string>
+    <string name="login">login</string>
+    <string name="logout">logout</string>
+    <string name="image_description1">main_background</string>
+
+    
 </resources>

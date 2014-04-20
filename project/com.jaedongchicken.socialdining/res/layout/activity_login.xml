@@ -13,13 +13,13 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="106dp"
+        android:contentDescription="@string/image_description1"
         android:background="@drawable/logo" />
 
     <!-- 일단 안보이게 처리 -->
 
-    <com.facebook.widget.LoginButton
-        xmlns:fb="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/login_button"
+    <Button
+        android:id="@+id/button_login"
         style="@drawable/selector_fblogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,8 +27,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="53dp"
         android:background="@drawable/selector_fblogin"
-        android:visibility="visible"
-        facebook:confirm_logout="false"
-        fb:fetch_user_info="true" />
+        android:visibility="visible" />
 
 </RelativeLayout>
